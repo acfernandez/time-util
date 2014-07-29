@@ -8,12 +8,12 @@
 	</parent>
 
 	<groupId>ar.com.acf</groupId>
-	<artifactId>time-utils</artifactId>
+	<artifactId>time-util</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>time-utils</name>
-	<description>utils about operations with time</description>
+	<name>time-util</name>
+	<description>util about operations with time</description>
 
 	<developers>
 		<developer>
@@ -39,9 +39,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:acfernandez/time-utils.git</connection>
-		<developerConnection>scm:git:git@github.com:acfernandez/time-utils.git</developerConnection>
-		<url>https://github.com/acfernandez/time-utils.git</url>
+		<connection>scm:git:git@github.com:acfernandez/time-util.git</connection>
+		<developerConnection>scm:git:git@github.com:acfernandez/time-util.git</developerConnection>
+		<url>https://github.com/acfernandez/time-util.git</url>
 	</scm>
 
 	<dependencies>
