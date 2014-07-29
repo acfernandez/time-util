@@ -1,16 +1,20 @@
 What's it?
 =========
 
-time-util is a little library to use with time operations
+Time-util is a little library to use with time operations
 
 Samples
 -------
 
-1) DateFormatUtils.STD_DATE_FORMATTER.print(LocalDate.now()) produces a string with format yyyy-MM-dd
+1) Print a string with specific, in this case yyyy-MM-dd
 
-2) DateFormatUtils.STD_DATE_FORMATTER.parseDateTime("2014-01-01") produces a joda-date-time object
+	DateFormatUtils.STD_DATE_FORMATTER.print(LocalDate.now())
 
-3) LocalDateEditor to use with a controller in order to binding the URI which contains dates values:  
+2) Parse a date string, which produces a joda-date-time object
+	
+	DateFormatUtils.STD_DATE_FORMATTER.parseDateTime("2014-01-01")
+
+3) LocalDateEditor to use with a controller in order to binding the URI which contains dates values  
     
     @InitBinder
     public void initBinder(WebDataBinder binder) {
